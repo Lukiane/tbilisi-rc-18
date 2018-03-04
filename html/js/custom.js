@@ -7,7 +7,7 @@
 		var countDownContainer = $('.coundown');
 		if (countDownContainer.length) {
 			countDownContainer.countdown({
-				date: "December 31, 2017 23:59:59"
+				date: "March 6, 2018 00:29:00"
 			});
 		};
 	}

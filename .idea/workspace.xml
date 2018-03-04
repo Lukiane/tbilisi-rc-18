@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="904ab2e9-06c5-408e-977d-32bb6291ee60" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Node/server.js" afterPath="$PROJECT_DIR$/Node/server.js" />
+      <change beforePath="$PROJECT_DIR$/html/js/countdown.min.js" afterPath="$PROJECT_DIR$/html/js/countdown.min.js" />
+      <change beforePath="$PROJECT_DIR$/html/js/custom.js" afterPath="$PROJECT_DIR$/html/js/custom.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,10 +32,20 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/documentation/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="271">
+              <caret line="100" column="38" lean-forward="false" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -65,6 +76,9 @@
       <find>about</find>
       <find>our te</find>
       <find>tbilisi regional conference</find>
+      <find>date</find>
+      <find>defaultOptions</find>
+      <find>countdown</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -79,8 +93,10 @@
         <option value="$PROJECT_DIR$/html/Team.html" />
         <option value="$PROJECT_DIR$/html/css/style.css" />
         <option value="$PROJECT_DIR$/html/team.html" />
-        <option value="$PROJECT_DIR$/html/index.html" />
         <option value="$PROJECT_DIR$/Node/server.js" />
+        <option value="$PROJECT_DIR$/html/index.html" />
+        <option value="$PROJECT_DIR$/html/js/countdown.min.js" />
+        <option value="$PROJECT_DIR$/html/js/custom.js" />
       </list>
     </option>
   </component>
@@ -122,7 +138,13 @@
             <path>
               <item name="TbilisiRC18" type="b2602c69:ProjectViewProjectNode" />
               <item name="TbilisiRC18" type="462c0819:PsiDirectoryNode" />
-              <item name="Node" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TbilisiRC18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TbilisiRC18" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -183,12 +205,12 @@
       <workItem from="1519484538423" duration="758000" />
       <workItem from="1519552371337" duration="25000" />
       <workItem from="1520025618079" duration="339000" />
-      <workItem from="1520161502758" duration="1117000" />
+      <workItem from="1520161502758" duration="2176000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11856000" />
+    <option name="totallyTimeSpent" value="12915000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -233,20 +255,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/css/responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13095">
-          <caret line="873" column="50" lean-forward="false" selection-start-line="873" selection-start-column="50" selection-end-line="873" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/css/jquery.fancybox.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1725">
@@ -551,13 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -574,8 +575,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="271">
+          <caret line="100" column="38" lean-forward="false" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/countdown.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding />
         </state>
       </provider>
