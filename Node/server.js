@@ -1,16 +1,19 @@
-var express = require('express');
-var app = express();
 
-app.use(express.static(__dirname + '/public'));
 
-app.post('/login', function(req, res){
-    console.log(req.body.username + " " +  req.body.password);
-    if (req.body.username === "brian" && req.body.password === "pass") {
-        res.json(200, {status:"success"});
-    }
-    else {
-        res.json(401, {status:"failure"})
-    }
+const express = require("express");
+const app = express();
+
+// Static css/js files
+app.use(express.static('/Users/lukakobalia/Desktop/Tbilisi Regional Conference 2018/TbilisiRC18/html'));
+
+app.get("/", function(req, res) {
+    res.sendFile('/Users/lukakobalia/Desktop/Tbilisi Regional Conference 2018/TbilisiRC18/html/index.html');
 });
 
-var server = app.listen(8080);
+
+const port = 3001;
+
+// Start server
+app.listen(port, function() {
+    console.log("Listening on " + port);
+});
